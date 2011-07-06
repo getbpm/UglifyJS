@@ -1,22 +1,28 @@
 {
         "name"    : "uglify-js",
 
-        "author"  : {
-                "name"  : "Mihai Bazon",
-                "email" : "mihai.bazon@gmail.com",
-                "url"   : "http://mihai.bazon.net/blog"
-        },
+        "author"  : "Mihai Bazon",
 
+        "summary":     "AST-powered minifier for JavaScript",
+        "description": "Minify JavaScript applications.  Includes plugin support for bpm.",
+        
         "version" : "1.0.4",
-
-        "main"    : "./uglify-js.js",
-
-        "bin"     : {
-                "uglifyjs" : "./bin/uglifyjs"
-        },
 
         "repository": {
                 "type": "git",
                 "url": "git@github.com:mishoo/UglifyJS.git"
+        },
+        
+        "homepage": "http://github.com/getbpm/UglifyJS",
+        
+        "plugin:minifier": "uglify-js/~plugins/minifier",
+        
+        "directories": {
+          "lib": "lib",
+          "plugins": "plugins"
+        },
+        
+        "dependencies": {
+          "spade": "0.1.2"
         }
 }
