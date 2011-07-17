@@ -6,7 +6,7 @@
         "summary":     "AST-powered minifier for JavaScript",
         "description": "Minify JavaScript applications.  Includes plugin support for bpm.",
         
-        "version" : "1.0.4",
+        "version" : "1.0.4.1",
 
         "repository": {
                 "type": "git",
@@ -15,7 +15,7 @@
         
         "homepage": "http://github.com/getbpm/UglifyJS",
         
-        "plugin:minifier": "uglify-js/~plugins/minifier",
+        "bpm:minifier": "uglify-js/plugins/minifier",
         
         "directories": {
           "lib": "lib",
@@ -23,6 +23,6 @@
         },
         
         "dependencies": {
-          "spade": "0.1.2"
+          "spade": "1.0.0"
         }
 }
