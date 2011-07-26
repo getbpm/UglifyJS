@@ -6,7 +6,7 @@
         "summary":     "AST-powered minifier for JavaScript",
         "description": "Minify JavaScript applications.  Includes plugin support for bpm.",
         
-        "version" : "1.0.4.1",
+        "version" : "1.0.4.2",
 
         "repository": {
                 "type": "git",
@@ -23,6 +23,6 @@
         },
         
         "dependencies": {
-          "spade": "1.0.0"
+          "spade": "~> 1.0.0"
         }
 }
